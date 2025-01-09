@@ -54,5 +54,5 @@ class ProductViewSet(viewsets.ModelViewSet):
         shop_owner = self.request.user  # Use the logged-in user directly
         return Product.objects.filter(shop_owner=shop_owner)
 
-#alby commit
+#alby commit ok dah mowne
 
